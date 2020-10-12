@@ -2,33 +2,52 @@
 <html lang="en" dir="ltr">
   <head>
     <style>
+
       #header{
           background-color:#7B2DED;
-          width:80%;
+          height: 100px;
+          width:100%;
           margin:auto;
       }
       #nav{
-        width:80%;
+        width:100%;
         margin:auto;
         background-color: #30B2FC;
+        height: 30px;
       }
       #text{
         margin:auto;
-        width: 50%;
+        height: 400px;
+        width: 60%;
         display:block;
         float: left;
         background-color: green;
       }
       #image{
         margin:auto;
-        width: 30%;
         display: block;
-
         background-color: red;
+        height: 250px;
+        float: left;
+        width: 20%;
+      }
+      #image2{
+        height: 250px;
+        margin:auto;
+        display: block;
+        background-color: blue;
+        float: left;
+        width: 20%;
       }
       #foot{
+        float:left;
         display: block;
         width:100%;
+        background-color: orange;
+
+      }
+      #container{
+        width: 1200px;
         margin:auto;
       }
     </style>
@@ -36,10 +55,13 @@
     <title>Layouts</title>
   </head>
   <body>
-    <div id="header">HEADER</div>
-    <div id="nav">Navbar</div>
-    <div id="text">Content Text</div>
-    <div id="image">Image</div>
-    <div id="foot">Footer</div>
+    <div id="container">
+      <div id="header">HEADER</div>
+      <div id="nav">Navbar</div>
+      <div id="text">Content Text</div>
+      <div id="image">Image</div>
+      <div id="image2">Image 2</div>
+      <div id="foot">Footer</div>
+    </div>
   </body>
 </html>
