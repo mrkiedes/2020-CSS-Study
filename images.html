@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Images</title>
+    <style>
+      body{
+        background-color: gray;
+      }
+      img {
+        height: 200px;
+      }
+      #borderRadius{
+        border-radius: 6px;
+      }
+      #thumbnail{
+        border: 1px solid #000;
+        border-radius: 4px;
+        padding 5px;
+      }
+      #responsive{
+        max-width: 100%;
+        height: auto;
+      }
+      div.polaroid {
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+      }
+
+      div.container {
+        text-align: center;
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    Border-Radius: <img id="borderRadius" src="img/chess.jpg" /><br />
+    Thumbnail: <img id="thumbnail" src="img/chess.jpg" /><br />
+    Responsive: <img id="responsive" src="img/chess.jpg" /><br />
+    <div class="polaroid">
+      <img src="img/chess.jpg" />
+      <div class="container">
+        <p>Polaroid Card</p>
+      </div>
+    </div><br />
+    Opacity: <img id="opacity" src="img/chess.jpg" /><br />
+  </body>
+</html>
